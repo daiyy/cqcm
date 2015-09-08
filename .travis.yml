@@ -13,6 +13,7 @@ env:
 install:
  - pip install $DJANGO
  - pip install coverage
+ - pip install django-allauth
 branches:
  only:
   - master
