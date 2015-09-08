@@ -1,1 +1,2 @@
 # cqcm
+this is readme
