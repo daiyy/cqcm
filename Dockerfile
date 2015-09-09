@@ -1,4 +1,4 @@
-FROM python:3.4
+FROM ubuntu:last
 
 #RUN mkdir -p /usr/src/app
 #WORKDIR /usr/src/app
