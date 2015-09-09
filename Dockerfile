@@ -16,5 +16,5 @@ FROM ubuntu:latest
 #    --no-install-recommends && rm -rf /var/lib/apt/lists/*
 
 EXPOSE 80
-CMD ["bash"]
+#CMD ["bash"]
 # CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
