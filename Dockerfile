@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu
 
 #RUN mkdir -p /usr/src/app
 #WORKDIR /usr/src/app
@@ -16,4 +16,5 @@ FROM ubuntu:latest
 #    --no-install-recommends && rm -rf /var/lib/apt/lists/*
 
 EXPOSE 8000
+CMD ["bash"]
 # CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
